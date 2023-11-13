@@ -2,6 +2,7 @@
 import { Puck, type Data } from "@measured/puck";
 import config from "@/components/puck-config";
 
+//todo add local storage support
 const isBrowser = typeof window !== "undefined";
 
 export default function Client({ path, data }: { path: string; data: Data }) {
